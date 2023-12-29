@@ -1,0 +1,20 @@
+package com.camera.projectcamera.model.request;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.Date;
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+
+public class SalaryRequest {
+
+    private Long employeeId;
+    private int departmentId;
+    private Long sum;
+    private Long allow;
+    private Date date;
+
+}
